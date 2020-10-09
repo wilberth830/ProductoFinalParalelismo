@@ -6,7 +6,7 @@ services:
     build: ./index
     restart: always
     ports:
-      - "82:82"
+      - "1002:1002"
     networks:
       - overlay
 
@@ -14,7 +14,7 @@ services:
     build: ./login
     restart: always
     ports:
-      - "83:83"
+      - "1003:1003"
     networks:
       - overlay
 
@@ -22,7 +22,7 @@ services:
     build: ./Menu
     restart: always
     ports:
-      - "84:84"
+      - "1004:1004"
     networks:
       - overlay
 
@@ -30,7 +30,7 @@ services:
     build: ./Promocion
     restart: always
     ports:
-      - "85:85"
+      - "1005:1005"
     networks: 
       - overlay
 
