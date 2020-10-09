@@ -13,9 +13,9 @@
     <div class="header-nav contenedor">
       <img src="img/logo.png" alt="">
       <nav>
-        <a href="../Menu/index.php">Menu</a>
-        <a href="../Promocion/index.php">Promociones</a>
-        <a href="../Login/index.php">Login</a>
+        <a href="../Menu/menu.php">Menu</a>
+        <a href="../Promocion/promocion.php">Promociones</a>
+        <a href="../Login/login.php">Login</a>
       </nav>
     </div>
   </header>
